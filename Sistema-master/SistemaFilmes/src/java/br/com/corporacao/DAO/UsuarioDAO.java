@@ -87,16 +87,16 @@ public class UsuarioDAO implements UsuarioDAOInterface {
             while (rs.next()) {
 
                 UsuarioBean us = new UsuarioBean();
-                us.setEmail(rs.getString(1));
-                us.setImagem(rs.getString(2));
-                us.setSenha(rs.getString(3));
-                us.setTipo(rs.getString(4));
-                us.setCidade(rs.getString(5));
-                us.setEstado(rs.getString(6));
-                us.setNomeCompleto(rs.getString(7));
-                us.setApelido(rs.getString(8));
-                us.setDataNascimento(rs.getString(9));
-                us.setSexo(rs.getString(10));
+                us.setEmail(rs.getString("email"));
+                us.setImagem(rs.getString("foto"));
+                us.setSenha(rs.getString("senha"));
+                us.setTipo(rs.getString("tipo"));
+                us.setCidade(rs.getString("cidade"));
+                us.setEstado(rs.getString("estado"));
+                us.setNomeCompleto(rs.getString("nomecompleto"));
+                us.setApelido(rs.getString("apelido"));
+                us.setDataNascimento(rs.getString("datanascimento"));
+                us.setSexo(rs.getString("sexo"));
                 usuarioBean.add(us);
 
             }
