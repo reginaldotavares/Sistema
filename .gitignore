@@ -42,3 +42,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 /Sistema-master/SistemaFilmes/dist/
+/SistemaFilmes/build/
+/SistemaFilmes/dist/
+/SistemaFilmes/nbproject/private/
